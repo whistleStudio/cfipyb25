@@ -17,7 +17,7 @@ export default defineUserConfig({
     ["meta", {"http-equiv": "Expires", content: "0"}]
   ],
   theme: defaultTheme({
-    home: "/getting-started/概要.md",
+    home: "/getting-started/快速索引.md",
     logo: "/images/cfdsxdoc-icon.png",
     logoAlt: "[当前网络不佳]",
     contributors: "Whistle Wang",
@@ -31,7 +31,7 @@ export default defineUserConfig({
         ]
       },
       {
-        text: " 物联网的数据采集",
+        text: "物联网的数据采集",
         link: "/_01_collection/声音数据的采集.md",
         collapsible: true,
         children: [
