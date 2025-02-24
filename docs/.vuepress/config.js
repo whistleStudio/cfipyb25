@@ -27,15 +27,58 @@ export default defineUserConfig({
         text: "准备工作",
         link: "/getting-started/快速索引.md",
         children: [
-          {text: "快速索引", link: "/getting-started/快速索引.md"}
+          {text: "快速索引", link: "/getting-started/快速索引.md"},
+          {text: "材料清单", link: "/getting-started/材料清单.md"},
+          {text: "编程板", link: "/getting-started/编程板.md"},
+          {text: "编程星空软件", link: "/getting-started/编程星空软件.md"},
+          {text: "注意事项", link: "/getting-started/注意事项.md"},
+          {text: "服务支持", link: "/getting-started/服务支持.md"},
         ]
       },
       {
         text: "物联网的数据采集",
-        link: "/_01_collection/声音数据的采集.md",
+        link: "/物联网的数据采集/声音数据的采集.md",
         collapsible: true,
         children: [
-          {text: "声音数据的采集", link: "/_01_lamp/声音数据的采集.md"},
+          {text: "声音数据的采集", link: "/物联网的数据采集/声音数据的采集.md"},
+          {text: "模拟倒车雷达", link: "/物联网的数据采集/模拟倒车雷达.md"},
+          {text: "模拟公交卡计费", link: "/物联网的数据采集/模拟公交卡计费.md"},
+        ]
+      },
+      {
+        text: "物联网的数据传输",
+        link: "/物联网的数据传输/体验开发板连接Wifi.md",
+        collapsible: true,
+        children: [
+          {text: "体验开发板连接Wifi", link: "/物联网的数据传输/体验开发板连接Wifi.md"},
+          {text: "探究蓝牙传输距离",   link: "/物联网的数据传输/探究蓝牙传输距离.md"},
+        ]
+      },
+      {
+        text: "物联网的数据处理",
+        link: "/物联网的数据处理/模拟本地单灯系统.md",
+        collapsible: true,
+        children: [
+          {text: "模拟本地单灯系统", link: "/物联网的数据处理/模拟本地单灯系统.md"},
+          {text: "模拟远程单灯系统",   link: "/物联网的数据处理/模拟远程单灯系统.md"},
+          {text: "模拟远程多灯系统",   link: "/物联网的数据处理/模拟远程多灯系统.md"},
+        ]
+      },
+      {
+        text: "物联网的综合应用",
+        link: "/物联网的综合应用/阅览室人数控制功能.md",
+        collapsible: true,
+        children: [
+          {text: "场馆的人数控制", link: "/物联网的综合应用/阅览室人数控制功能.md"},
+          {text: "场馆的温湿度控制",   link: "/物联网的综合应用/阅览室温湿度控制功能.md"},
+        ]
+      },
+      {
+        text: "跨学科主题学习",
+        link: "/跨学科主题学习/智慧农场.md",
+        collapsible: true,
+        children: [
+          {text: "智慧农场", link: "/跨学科主题学习/智慧农场.md"},
         ]
       },
     ],
