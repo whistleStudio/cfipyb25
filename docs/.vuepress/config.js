@@ -10,7 +10,7 @@ import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
 */
 export default defineUserConfig({
   bundler: viteBundler(),
-  title: "初中信息科技学科教学仪器-智能控制板 教程",
+  title: "初中信息科技学科教学仪器-智能实验箱 教程",
   head: [
     ["meta", {"http-equiv": "Pragma", content: "no-cache"}],
     ["meta", {"http-equiv": "Cache-Control", content: "no-cache"}],
@@ -28,11 +28,11 @@ export default defineUserConfig({
         link: "/getting-started/快速索引.md",
         children: [
           {text: "快速索引", link: "/getting-started/快速索引.md"},
-          {text: "材料清单", link: "/getting-started/材料清单.md"},
-          {text: "编程板", link: "/getting-started/编程板.md"},
+          // {text: "材料清单", link: "/getting-started/材料清单.md"},
+          {text: "智能实验箱", link: "/getting-started/智能实验箱.md"},
           {text: "编程星空软件", link: "/getting-started/编程星空软件.md"},
           {text: "注意事项", link: "/getting-started/注意事项.md"},
-          {text: "服务支持", link: "/getting-started/服务支持.md"},
+          // {text: "服务支持", link: "/getting-started/服务支持.md"},
         ]
       },
       {
@@ -66,11 +66,11 @@ export default defineUserConfig({
       },
       {
         text: "物联网的综合应用",
-        link: "/物联网的综合应用/阅览室人数控制功能.md",
+        link: "/物联网的综合应用/场馆的人数控制.md",
         collapsible: true,
         children: [
-          {text: "场馆的人数控制", link: "/物联网的综合应用/阅览室人数控制功能.md"},
-          {text: "场馆的温湿度控制",   link: "/物联网的综合应用/阅览室温湿度控制功能.md"},
+          {text: "场馆的人数控制", link: "/物联网的综合应用/场馆的人数控制.md"},
+          {text: "场馆的温湿度控制",   link: "/物联网的综合应用/场馆的温湿度控制.md"},
         ]
       },
       {
