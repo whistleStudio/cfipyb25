@@ -47,10 +47,10 @@ export default defineUserConfig({
       },
       {
         text: "物联网的数据传输",
-        link: "/物联网的数据传输/体验开发板连接Wifi.md",
+        link: "/物联网的数据传输/体验实验箱连接Wifi.md",
         collapsible: true,
         children: [
-          {text: "体验开发板连接Wifi", link: "/物联网的数据传输/体验开发板连接Wifi.md"},
+          {text: "体验开发板连接Wifi", link: "/物联网的数据传输/体验实验箱连接Wifi.md"},
           {text: "探究蓝牙传输距离",   link: "/物联网的数据传输/探究蓝牙传输距离.md"},
         ]
       },
