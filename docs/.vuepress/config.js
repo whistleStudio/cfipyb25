@@ -35,6 +35,62 @@ export default defineUserConfig({
           // {text: "服务支持", link: "/getting-started/服务支持.md"},
         ]
       },
+      { 
+        text: "—— 小学 ——",
+      },
+      {
+        text: "系统思想识万物",
+        link: "/系统思想识万物/按钮控制台灯.md",
+        collapsible: true,
+        children: [
+          {text: "按钮控制台灯", link: "/系统思想识万物/按钮控制台灯.md"},
+          {text: "光控台灯", link: "/系统思想识万物/光控台灯.md"}
+        ]
+      },
+      {
+        text: "系统安全与自主可控",
+        link: "/系统安全与自主可控/IC卡识别门禁.md",
+        collapsible: true,
+        children: [
+          {text: "IC卡识别门禁", link: "/系统安全与自主可控/IC卡识别门禁.md"},
+          {text: "人脸识别门禁", link: "/系统安全与自主可控/人脸识别门禁.md"},
+        ]
+      },
+      {
+        text: "系统控制的量化",
+        link: "/系统控制的量化/旋钮控制风扇.md",
+        collapsible: true,
+        children: [
+          {text: "旋钮控制风扇", link: "/系统控制的量化/旋钮控制风扇.md"},
+          {text: "温度控制风扇", link: "/系统控制的量化/温度控制风扇.md"},
+          {text: "自动浇灌装置", link: "/系统控制的量化/自动浇灌装置.md"},
+        ]
+      },
+      {
+        text: "逻辑与运算",
+        link: "/逻辑与运算/分区智能广播.md",
+        collapsible: true,
+        children: [
+          {text: "分区智能广播", link: "/逻辑与运算/分区智能广播.md"}
+        ]
+      },
+      {
+        text: "系统与反馈 (HelloCar)",
+        link: "https://dict.cfunworld.com/tutorial/hellocardoc/",
+        collapsible: true
+      },
+      {
+        text: "系统与优化",
+        link: "/系统与优化/智控电子秤.md",
+        collapsible: true,
+        children: [
+          {text: "智控电子秤", link: "/系统与优化/智控电子秤.md"},
+          {text: "追光太阳能板", link: "/系统与优化/追光太阳能板.md"},
+        ]
+      },
+      { 
+        text: "—— 初中 ——",
+      },
       {
         text: "物联网的数据采集",
         link: "/物联网的数据采集/声音数据的采集.md",
