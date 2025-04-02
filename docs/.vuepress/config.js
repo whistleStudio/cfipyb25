@@ -10,7 +10,7 @@ import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
 */
 export default defineUserConfig({
   bundler: viteBundler(),
-  title: "初中信息科技学科教学仪器-智能实验箱 教程",
+  title: "信息科技学科教学仪器-智能实验箱 教程",
   head: [
     ["meta", {"http-equiv": "Pragma", content: "no-cache"}],
     ["meta", {"http-equiv": "Cache-Control", content: "no-cache"}],
